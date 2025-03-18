@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>PDF in HTML</title>
+</head>
+<style>
+    .pdf {
+        width: 100%;
+        aspect-ratio: 4 / 3;
+    }
+
+    .pdf,
+    html,
+    body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    h1,
+    h3 {
+        text-align: center;
+    }
+
+    h1 {
+        color: green;
+    }
+
+    .div-img {
+        margin: auto;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .text-font {
+        font-family: "Lucida Console", "Courier New", monospace;
+        font-size: large;
+        padding: 5px;
+        margin: 5px;
+    }
+</style>
+
+<body>
+    <h1>PROYECTO FINAL SAMSUNG INNOVATION CAMPUS 2024</h1>
+    <h3>SISTEMA DE REHABILITACIÓN BASADO EN ANÁLISIS BIOMECÁNICO Y VISIÓN ESTÉREO</h3>
+    <object class="pdf" data="PROYECTO FINAL SAMSUNG.pdf" width="800" height="500">
+    </object>
+    <div class="div-img">
+        <div class="text-font">Opciones del menú</div>
+        <img src="gifts/menu.gif" alt="">
+    </div>
+    <div class="div-img">
+        <div class="text-font">Apartado para consultar todos los datos recopilados y para crear rutinas de ejercicios</div>
+        <img src="gifts/datos y rutina.gif" alt="">
+    </div>
+    <div class="div-img">
+        <div class="text-font">Apartado para clasificar las posturas del paciente a lo largo de cada ejercicio de una rutina
+            especifica</div>
+        <img src="gifts/ejercicio clasificacion.gif" alt="">
+    </div>
+</body>
+
+</html>
